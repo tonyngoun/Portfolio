@@ -1,5 +1,9 @@
 import React from 'react';
-import banner from '../banner.jpg';
+// import banner from '../banner.jpg';
+
+import profileimage from '../profileimage.PNG';
+
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -9,9 +13,12 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container">
 
-            <a className="navbar-brand" href="#"><img className="banner"src={banner} alt="banner..." /></a>
+            <a className="navbar-brand" href="#">
+            <img className="banner"src={profileimage} alt="profileimage..." />
+                {/* <img className="banner"src={banner} alt="banner..." /> */}
+                </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <FontAwesomeIcon icon={faBars} style={{ color: "#0000FF"}} />
+            <FontAwesomeIcon icon={faBars} stye={{ color: "#0000FF"}} />
             </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
