@@ -5,14 +5,19 @@ import Navbar from "./components/Navbar";
 
 import Header from "./components/Header";
 
-import Particles from "react-tsparticles";
+// import Particles from "react-tsparticles";
 
 import AboutMe from "./components/AboutMe"
+
+import Experience from "./components/Experience";
+
+import Portfolio from "./components/Portfolio";
+
 
 function App() {
   return (
     <>
-    <Particles
+    {/* <Particles
       params= {{
         particles: {
           number: {
@@ -24,12 +29,15 @@ function App() {
         }
       }
     }}
-    />
+    /> */}
 
     {/* <Particles/> */}
     <Navbar />
     <Header/>
     <AboutMe/>
+    <Experience />
+    <Portfolio/>
+
     </>
   );
 }
