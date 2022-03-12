@@ -16,6 +16,7 @@ return <div className="container py-5">
                 <h1 className="about-heading">About Me</h1>
                 <p>Hi, my name is Tony. I am a Full Stack Web Developer. Technologies I use is MERN(MongoDB, Express, ReactJS, and NodeJS).
                 </p>
+                <p>I have always was curious about web development and have been wanting to make a career change for some time now. </p>
 
             </div>
         </div>

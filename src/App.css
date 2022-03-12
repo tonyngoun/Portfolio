@@ -320,3 +320,110 @@ nav ul li {
   color: var(--primary-darkBlue);
   
 }
+
+/************************ MEDIA *********************************/
+ @media(max-width: 768px) {
+   .portfolio-image-popupbox {
+     width: 100% ;
+   }
+ }
+
+ @media(max-height: 570px) {
+   .popupbox-wrapper {
+     height: 100%;
+
+   }
+  .portfolio-image-popupbox {
+    width: 50% ;
+  }
+}
+
+
+/************************ cONTACTS *********************************/
+
+.contacts {
+  background: var(--primary-black);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-darkBlue);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-grey);
+  font-size: 1.2rem;
+}
+
+
+/************************ Inputs *********************************/
+/*!important override BOOTSTRAP RULES*/
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: .125rem solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: var(--primary-grey);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+
+}
+
+.contacts .container {
+  padding: 4rem 0;
+
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-blue);
+  border-bottom: .125rem solid var(--primary-dark-grey);
+}
+
+.contacts textarea {
+  height: 12.4rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0 ;
+  width: 100%;
+  background: none;
+}
+.line{
+  position: relative;
+  top: -0.8rem;
+  height: 0.125rem;
+  background: var(--primary-blue);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line{
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+/*-----media--------*/
+@media(max-width: 768px) {
+  .contacts{
+    overflow-x: hidden;
+  }
+  .contacts .container{
+   padding: 0 1rem;
+ }
+ .contacts p {
+   padding: 0 0.4rem;
+ }
+}

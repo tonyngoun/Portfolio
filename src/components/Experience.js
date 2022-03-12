@@ -10,10 +10,16 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2014-2016</h3>
-            <h4>Assistant Manager</h4>
-            <p>Manheim Auction</p>
-            {/* <p>Met daily goals of achieving 75 detailed vehicles per day.</p> */}
+          <h3>2021-Present</h3>
+            <h4>Master Detail Technician</h4>
+            <p>Iden's Dealer Services</p>
+            <ul>
+              <li>Properly use necessary equipment for cleaning and restoring all vehicle surfaces.</li>
+              <li>Maintain the quality standards of the organization, while meeting productivity expectations.</li>
+              <li>Maintain the proper function and cleanliness of detailing tools, equipment, and work area.</li>
+              <li>Detailed cleaning waxing and polishing of used and new vehicles.</li>
+            </ul>
+        
             
           </div>
         </div>
@@ -21,19 +27,31 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2016-2020</h3>
-            <h4>Audi Brand Specialist</h4>
-            <p>Audi Seattle</p>
-            <p></p>
+          <h3>2020-2021</h3>
+            <h4>Audi Brand Specialist/ Internet Sales Manager</h4>
+            <p>Larson Auto Group</p>
+            <ul>
+              <li>Achieved 500k in car sales per month by utilizing CRM to manage client maturity dates on leases and financed vehicles </li>
+              <li>Establish strong personal network with clients to achieve 20% of annual sales from referral business </li>
+              <li>Set vision, define strategy, and gain buyers commitments</li>
+            </ul>
+
           </div>
         </div>
         {/* - */}
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2020-2021</h3>
-            <h4>E-Commerce Manager</h4>
-            <p>Audi Tacoma</p>
+          <h3>2016-2020</h3>
+            <h4>Audi Brand Specialist</h4>
+            <p>Audi Seattle</p>
+            <ul>
+              <li>Quickly adapted to new technology and software such as CDK and VinSolutions CRM software </li>
+              <li>Achieve 50% in sales in the multicultural group by advertising new inventory on social media such as WeChat, Facebook groups and Instagram </li>
+              <li>Effectively advertise and market to local community to coordinate events and promotions, which has resulted in an increase of more sales of international business professionals</li>
+            </ul>
+        
+  
           
           </div>
         </div>
@@ -41,9 +59,13 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2021-2022</h3>
-            <h4>Lead Master Detail Technician</h4>
-            <p>Idens Detail</p>
+          <h3>2014-2016</h3>
+            <h4>Assistant Manager</h4>
+            <p>Manheim Auction</p>
+            <ul>
+              <li>Assisted the team in the daily goals of completed 70 vehicles a day.</li>
+              <li>Worked with other departments to coordinate completed vehicles during auction day by lowest to highest tagged vehicles</li>
+            </ul>
           </div>
         </div>
         {/* - */}
