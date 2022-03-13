@@ -13,7 +13,9 @@ import Experience from "./components/Experience";
 
 import Portfolio from "./components/Portfolio";
 
-import Contacts from "./components/Contacts";
+// import Contacts from "./components/Contacts";
+
+// import Footer from "./components/Footer";
 
 
 function App() {
@@ -39,7 +41,8 @@ function App() {
     <AboutMe/>
     <Experience />
     <Portfolio/>
-    <Contacts/>
+    {/* <Contacts/> */}
+    {/* <Footer/> */}
 
     </>
   );

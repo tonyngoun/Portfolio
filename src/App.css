@@ -340,7 +340,7 @@ nav ul li {
 
 
 /************************ cONTACTS *********************************/
-
+/* 
 .contacts {
   background: var(--primary-black);
   padding: 3rem 0;
@@ -355,12 +355,12 @@ nav ul li {
 .contacts p {
   color: var(--primary-grey);
   font-size: 1.2rem;
-}
+} */
 
 
 /************************ Inputs *********************************/
 /*!important override BOOTSTRAP RULES*/
-.contacts input, .contacts textarea {
+/* .contacts input, .contacts textarea {
   width: 100%;
   box-sizing: border-box;
   background: none;
@@ -414,9 +414,9 @@ input.form-control {
 
 textarea.form-control {
   margin: -0.3rem 0;
-}
+} */
 /*-----media--------*/
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
   .contacts{
     overflow-x: hidden;
   }
@@ -426,4 +426,4 @@ textarea.form-control {
  .contacts p {
    padding: 0 0.4rem;
  }
-}
+} */

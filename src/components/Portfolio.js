@@ -13,13 +13,13 @@ const Portfolio = () => {
 const openPopupboxListit = () => {
     const content = (
         <>
-          <img className="portfolio-image-popupbox" src={listitimage} alt="List it Project..." />
-          <p>Project Listit is a skinny version of Facebook Marketplace / Craigslist where users can buy and sell goods. Full-stack CRUD application built with MongoDB, Express, React, Node.js, and Google Maps Embed API.</p>
-          <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/dobbinsi/project_listit", "_blank")}>https://github.com/dobbinsi/project_listit</a>
-          <br />
+        <img className="portfolio-image-popupbox" src={listitimage} alt="List it Project..." />
+        <p>Project Listit is a skinny version of Facebook Marketplace / Craigslist where users can buy and sell goods. Full-stack CRUD application built with MongoDB, Express, React, Node.js, and Google Maps Embed API.</p>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/dobbinsi/project_listit", "_blank")}>https://github.com/dobbinsi/project_listit</a>
+        <br />
         </>
-      )
-      PopupboxManager.open({ content })
+    )
+    PopupboxManager.open({ content })
 }
 
     const popupboxConfigListit = {
