@@ -42,7 +42,7 @@ const openPopupboxAdoptPet = () => {
     const content = (
         <>
         <img className="portfolio-image-popupbox" src={AdoptPet} alt="AdoptPet..." />
-        <p>Project Listit is a skinny version of Facebook Marketplace / Craigslist where users can buy and sell goods. Full-stack CRUD application built with MongoDB, Express, React, Node.js, and Google Maps Embed API.</p>
+        <p>Adopt Pet where you can find and adopt a pet that needs a new home. Full-stack CRUD application built with MongoDB, Express, React, Node.js, and Google Maps Embed API.</p>
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/tonyngoun/ipet", "_blank")}>https://github.com/tonyngoun/ipet</a>
         <br />
         </>
